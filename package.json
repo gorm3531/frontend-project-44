@@ -2,12 +2,16 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
+  
 }
