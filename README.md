@@ -3,6 +3,13 @@
 Описание
 «Игры разума» — проект с пятью играми внутри. Все пять игр имитируют задачи, которые выполняют начинающие программисты. Принцип игр очень простой: игра задаёт вам вопрос, а вы стараетесь правильно ответить. Игра состоит из 3 раундов. Если вы ответили на все 3 вопроса правильно — вы победили. Если нет — у вас есть неограниченное количество попыток сыграть заново и победить.
 
+Минимальные требования
+Node.js версии 14.x или выше.
+npm (входит в состав Node.js).
+Make (для Linux/macOS) или GNU Make для Windows.
+Bash (для Linux/macOS) или Git Bash для Windows.
+
+
 Игры
 «Чётное ли число?» — определите, является ли число чётным.
 «Калькулятор» — вычислите результат арифметического выражения.
@@ -11,16 +18,16 @@
 «Число — простое?» — определите, является ли число простым.
 Установка
 Клонируйте репозиторий проекта:
-*git clone <ссылка на репозиторий>*
+```git clone <ссылка на репозиторий>```
 Перейдите в директорию проекта:
-*cd frontend-project-44*
+```cd frontend-project-44```
 Установите зависимости:
-*make install*
+```make install```
 
 (Как запускать написано правее от названия игры)
 
 1. Игра "Чётность"(brain-even)
-Запуск: brain-even
+Запуск: ```brain-even```
 Сценарий победы:
 Welcome to the Brain Games!
 May I have your name? Alice
@@ -42,7 +49,7 @@ Your answer: yes
 'yes' is wrong answer ;(. Correct answer was 'no'.
 Let's try again, Alice!
 2. Игра "Калькулятор"(brain-calc)
-Запуск: brain-calc
+Запуск: ```brain-calc```
 Welcome to the Brain Games!
 May I have your name? Sam
 Hello, Sam!
@@ -63,6 +70,7 @@ Your answer: 31
 '31' is wrong answer ;(. Correct answer was '30'.
 Let's try again, Sam!
 3. Игра "НОД"(brain-gcd)
+Запуск: ```brain-gcd```
 Сценарий победы:
 Welcome to the Brain Games!
 May I have your name? Andrew
@@ -84,6 +92,7 @@ Your answer: 1
 '1' is wrong answer ;(. Correct answer was '25'.
 Let's try again, Andrew!
 4. Игра «Арифметическая прогрессия»(brain-progression)
+Запуск: ```brain-progression```
 Сценарий победы:
 Welcome to the Brain Games!
 May I have your name? Lora
@@ -105,6 +114,7 @@ Your answer: 1
 '1' is wrong answer ;(. Correct answer was '15'.
 Let's try again, Lora!
 5. Игра «Простое ли число?» (brain-prime)
+Запуск: ```brain-prime```
 Welcome to the Brain Games!
 May I have your name? Kein
 Hello, Kein!
